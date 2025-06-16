@@ -48,7 +48,7 @@ describe("Testes da Funcionalidade Produtos", () => {
   it("Deve validar mensagem de erro ao cadastrar produto repetido", () => {
     cy.cadastrarProduto(
       token,
-      "Produto EBAC Novo 1",
+      "Logitech MX Vertical",
       250,
       "Descrição do produto novo",
       180
